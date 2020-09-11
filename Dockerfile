@@ -6,7 +6,7 @@ MAINTAINER Wenqiang Feng <wenqiang.feng@cstack.io>
 # Add 2048 stuff into Nginx server
 COPY . /usr/share/nginx/html
 
-RUN cd /usr/share/nginx/html && chmod -R 755
+RUN cd /usr/share/nginx/html && chmod -R 755 *
 
 EXPOSE 80
 
